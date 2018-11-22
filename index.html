@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Formulaire</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <main>
+      <h1>Formulaire HTML</h1>
+        <form method="post" action="traitement.php">
+        <label for="question1">Quel est la marque de votre première voiture : </label>
+        <input type="text" name="userquestion1" id="marquevoiture"><br><br>
+        <label for="question2">Quel est le nom de votre animal de companie : </label>
+        <input type="text" name="userquestion2" id="nomanimal"><br><br>
+        <input type="submit" value="Envoyer">
+
+    <h1>Votre Organisation</h1>
+      <h2>Quel secteur d'activite votre entreprise est-elle active?(lien avec votre APE)</h2>
+      <select name="reponse1" name="reponse1">
+              <option value="Industry">Industry</option>
+              <option value="Business">Business</option>
+              <option value="Information and communication">Information and communication</option>
+              <option value="Other services activity">Other services activity</option>
+              <option value="All other activities (financial, agricultural activities ...)">All other activities (financial, agricultural activities ...)</option>
+              <option value="Construction">Construction</option>
+              <option value="Public sector">Public sector</option>
+              <option value="Specialized, Scientific and Technical or Administrative and Support Services Activities">Specialized, Scientific and Technical or Administrative and Support Services Activities</option>
+              <option value="Real estate">Real estate</option>
+        </select><br><br>
+        <h2>Quel est le nombre de collaborateurs de votre entreprise au 31/12/18</h2>
+        <select name="reponse1" name="reponse1">
+                <option value="0">0</option>
+                <option value="1 to 2">1 to 2</option>
+                <option value="3 to 9">3 to 9</option>
+                <option value="10 to 49">10 to 49</option>
+                <option value="50 to 249">50 to 249</option>
+                <option value="250 to 4999">250 to 4999</option>
+                <option value="More than 5000">More than 5000</option>
+          </select><br><br><br><br>
+        <h2>Quel est le Chiffre d'Affaire(CA) de votre entreprise lors du dernier exercice fiscal ?</h2>
+        <input type="number" name="reponse3" id="reponse3"><br><br>
+        <h2>
+      </main>
+  </body>
+</html>
