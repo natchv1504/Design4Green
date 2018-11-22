@@ -52,6 +52,7 @@ INSERT INTO `question` (`id`, `intitule`, `theme`, `groupe_quest`, `type`, `r1`,
 (6, 'Do you apply the rules and best practices for digital accessibility?', 'your compagny\r\n', 'Ecoconception good practices', 'single', 'Yes', 'No', 'I don\'t know', NULL, NULL, '', '', '', ''),
 (2, 'What is the number of employees in your company on 18/12/31 ?', 'your compagny', '0', 'single', '0', '1 to 2\r\n', '3 to 9\r\n', '10 to 49\r\n', '50 to 249\r\n', '250 to 4999\r\n', 'More than 5000\r\n', '', '');
 
+(7,'Have you optimized the states and printouts in your application tools (reduced number of pages when printing, ink consumption ...)','')
 -- --------------------------------------------------------
 
 --
